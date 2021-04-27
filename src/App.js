@@ -1,23 +1,82 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="front-container">
+      <div class="screen">
+        THE SCREEN
+      </div>
+      <div id="front-section">
+        <div id="pair-grid">
+          <div class="table">
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+        </div>
+        <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+      </div>
+      <div id="front-handi">
+        <div id="pair-grid-back">
+          <div class="table">
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="back-section">
+        <div id="pair-grid">
+          <div class="table">
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="back-handi">
+        <div id="pair-grid-back">
+          <div class="table">
+          </div>
+          <div class="seats">
+            <div class="seat">
+            </div>
+            <div class="seat">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
